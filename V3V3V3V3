@@ -154,6 +154,8 @@ AutoFarm:AddSwitch("Situps", function(bool)
 end)
 
 local folder = Main:AddTab("Fast Glitch")
+
+local folder = Main:AddFolder("Fast Glitch")
  
 local function gettool()
     for i, v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
